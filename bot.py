@@ -38,4 +38,4 @@ async def slap(ctx, user: discord.Member=None):
                                                         user.mention)
     await ctx.send(message)
 
-bot.run('token') # replace this with your token if you wanna run this!
+bot.run('{{BOT_TOKEN}}') # replace this with your token if you wanna run this!
