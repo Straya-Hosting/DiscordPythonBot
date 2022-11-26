@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-bot = commands.Bot(command_prefix=commands.when_mentioned_or("!"))
+bot = commands.Bot(command_prefix=commands.when_mentioned_or("!"), intents=discord.Intents.default())
 
 @bot.event
 async def on_ready():
